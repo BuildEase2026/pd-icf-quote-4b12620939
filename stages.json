@@ -1,0 +1,32 @@
+{
+ "job": "Tyn Y Bonau Road, Pontarddulais - GS6 - FCHA, Blocks A + B",
+ "revision": "",
+ "stages": [
+  {
+   "n": 1,
+   "title": "Block A",
+   "desc": "Block A as drawn: 274 Nudura 6.6in XR35 forms, 10 stack joints (red) where the runs are off the Nudura Bond. ICF on the slab to the eaves, the raked gables and the rear wing; trussed main roof (fink trusses @600, gable ends), flat-joisted rear wing, steels over the two porches and the open main south line, windows and plain-wall partitions as design assumptions.",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 6697264
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Block B",
+   "desc": "Block B as drawn (the same front, a deeper rear wing): 283 forms, 12 stack joints (red). Same build-up as Block A.",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 7984576
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,347 @@
+{
+ "portal": "BuildEase ICF Project Environment",
+ "project": {
+  "client": "Insubloc (distributor)",
+  "job": "Tyn Y Bonau Road, Pontarddulais - GS6 - FCHA, Blocks A + B",
+  "number_prefix": "ES26-090",
+  "status": "QUOTATION",
+  "revision": "",
+  "model_title": "ES26-090 Tyn Y Bonau Road, Pontarddulais - GS6 - FCHA, Blocks A + B - Quotation"
+ },
+ "default_view": "stage-1",
+ "views": [
+  {
+   "id": "stage-1",
+   "kind": "stage",
+   "n": 1,
+   "title": "Block A",
+   "desc": "Block A as drawn: 274 Nudura 6.6in XR35 forms, 10 stack joints (red) where the runs are off the Nudura Bond. ICF on the slab to the eaves, the raked gables and the rear wing; trussed main roof (fink trusses @600, gable ends), flat-joisted rear wing, steels over the two porches and the open main south line, windows and plain-wall partitions as design assumptions.",
+   "focus": false
+  },
+  {
+   "id": "stage-2",
+   "kind": "stage",
+   "n": 2,
+   "title": "Block B",
+   "desc": "Block B as drawn (the same front, a deeper rear wing): 283 forms, 12 stack joints (red). Same build-up as Block A.",
+   "focus": false
+  },
+  {
+   "id": "elev-N",
+   "kind": "elevation",
+   "n": 2,
+   "title": "North elevation",
+   "dir": [
+    0.0,
+    0.12,
+    -1.0
+   ],
+   "desc": "Complete structure seen from the north."
+  },
+  {
+   "id": "elev-S",
+   "kind": "elevation",
+   "n": 2,
+   "title": "South elevation",
+   "dir": [
+    0.0,
+    0.12,
+    1.0
+   ],
+   "desc": "Complete structure seen from the south."
+  },
+  {
+   "id": "elev-E",
+   "kind": "elevation",
+   "n": 2,
+   "title": "East elevation",
+   "dir": [
+    1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the east."
+  },
+  {
+   "id": "elev-W",
+   "kind": "elevation",
+   "n": 2,
+   "title": "West elevation",
+   "dir": [
+    -1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the west."
+  }
+ ],
+ "stages": [
+  {
+   "n": 1,
+   "title": "Block A",
+   "desc": "Block A as drawn: 274 Nudura 6.6in XR35 forms, 10 stack joints (red) where the runs are off the Nudura Bond. ICF on the slab to the eaves, the raked gables and the rear wing; trussed main roof (fink trusses @600, gable ends), flat-joisted rear wing, steels over the two porches and the open main south line, windows and plain-wall partitions as design assumptions.",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 6697264
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Block B",
+   "desc": "Block B as drawn (the same front, a deeper rear wing): 283 forms, 12 stack joints (red). Same build-up as Block A.",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 7984576
+    }
+   ]
+  }
+ ],
+ "groups": [
+  {
+   "id": "verA",
+   "title": "Block A",
+   "note": "Block A - the Distributor Bill of Materials (every form and accessory with your rate card - no material prices from us; BuildEase pre-cut service and pre-cut delivery as fixed charges), the ICF general arrangement, wall elevations, a section, the pallet stack sheets and the artic load plans.",
+   "zip": {
+    "file": "downloads/ES26-090 Block A.zip",
+    "bytes": 592838,
+    "count": 8
+   },
+   "docs": [
+    {
+     "id": "ES26-090-GA-01A",
+     "title": "Ground Floor ICF General Arrangement - Block A",
+     "file": "docs/verA/ES26-090-GA-01A Ground Floor ICF General Arrangement - Block A.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-090-GA-01A.png",
+     "bytes": 66784,
+     "number": "ES26-090-GA-01A",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-090-EL-01A",
+     "title": "North West and South East Elevations - Block A",
+     "file": "docs/verA/ES26-090-EL-01A North West and South East Elevations - Block A.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-090-EL-01A.png",
+     "bytes": 174227,
+     "number": "ES26-090-EL-01A",
+     "view": "elev-N",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-090-EL-02A",
+     "title": "North East and South West Elevations - Block A",
+     "file": "docs/verA/ES26-090-EL-02A North East and South West Elevations - Block A.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-090-EL-02A.png",
+     "bytes": 100581,
+     "number": "ES26-090-EL-02A",
+     "view": "elev-E",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-090-SE-01A",
+     "title": "Section A-A - Block A",
+     "file": "docs/verA/ES26-090-SE-01A Section A-A - Block A.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-090-SE-01A.png",
+     "bytes": 63988,
+     "number": "ES26-090-SE-01A",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-090-LP-01A",
+     "title": "Artic Load Plans - Block A",
+     "file": "docs/verA/ES26-090-LP-01A Artic Load Plans - Block A.pdf",
+     "pages": 2,
+     "thumb": "thumbs/ES26-090-LP-01A.png",
+     "bytes": 33464,
+     "number": "ES26-090-LP-01A",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-090-PS-01A",
+     "title": "Pallet Stack Sheets - Block A",
+     "file": "docs/verA/ES26-090-PS-01A Pallet Stack Sheets - Block A.pdf",
+     "pages": 12,
+     "thumb": "thumbs/ES26-090-PS-01A.png",
+     "bytes": 214868,
+     "number": "ES26-090-PS-01A",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-090-QS-01A",
+     "title": "Distributor BOM - Block A - Nudura ICF kit with your rate card (Excel)",
+     "file": "downloads/Distributor BOM - Tyn Y Bonau Road, Pontarddulais - Block A.xlsx",
+     "thumb": "thumbs/ES26-090-QS-01A.png",
+     "bytes": 67557,
+     "number": "ES26-090-QS-01A",
+     "kind": "xlsx",
+     "preview": "xls/bom_A.html",
+     "tabs": 7,
+     "subtitle": "Excel workbook - live preview, enter your sale rates"
+    }
+   ],
+   "downloads": [
+    {
+     "file": "downloads/Distributor BOM - Tyn Y Bonau Road, Pontarddulais - Block A.xlsx",
+     "title": "Distributor BOM - Block A (Excel - enter your rates in the yellow cells) (0.1 MB)"
+    }
+   ]
+  },
+  {
+   "id": "verB",
+   "title": "Block B",
+   "note": "Block B - the Distributor Bill of Materials (every form and accessory with your rate card - no material prices from us; BuildEase pre-cut service and pre-cut delivery as fixed charges), the ICF general arrangement, wall elevations, a section, the pallet stack sheets and the artic load plans.",
+   "zip": {
+    "file": "downloads/ES26-090 Block B.zip",
+    "bytes": 594159,
+    "count": 8
+   },
+   "docs": [
+    {
+     "id": "ES26-090-GA-01B",
+     "title": "Ground Floor ICF General Arrangement - Block B",
+     "file": "docs/verB/ES26-090-GA-01B Ground Floor ICF General Arrangement - Block B.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-090-GA-01B.png",
+     "bytes": 67330,
+     "number": "ES26-090-GA-01B",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-090-EL-01B",
+     "title": "North West and South East Elevations - Block B",
+     "file": "docs/verB/ES26-090-EL-01B North West and South East Elevations - Block B.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-090-EL-01B.png",
+     "bytes": 170891,
+     "number": "ES26-090-EL-01B",
+     "view": "elev-N",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-090-EL-02B",
+     "title": "North East and South West Elevations - Block B",
+     "file": "docs/verB/ES26-090-EL-02B North East and South West Elevations - Block B.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-090-EL-02B.png",
+     "bytes": 102101,
+     "number": "ES26-090-EL-02B",
+     "view": "elev-E",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-090-SE-01B",
+     "title": "Section A-A - Block B",
+     "file": "docs/verB/ES26-090-SE-01B Section A-A - Block B.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-090-SE-01B.png",
+     "bytes": 66103,
+     "number": "ES26-090-SE-01B",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-090-LP-01B",
+     "title": "Artic Load Plans - Block B",
+     "file": "docs/verB/ES26-090-LP-01B Artic Load Plans - Block B.pdf",
+     "pages": 2,
+     "thumb": "thumbs/ES26-090-LP-01B.png",
+     "bytes": 33492,
+     "number": "ES26-090-LP-01B",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-090-PS-01B",
+     "title": "Pallet Stack Sheets - Block B",
+     "file": "docs/verB/ES26-090-PS-01B Pallet Stack Sheets - Block B.pdf",
+     "pages": 13,
+     "thumb": "thumbs/ES26-090-PS-01B.png",
+     "bytes": 216333,
+     "number": "ES26-090-PS-01B",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-090-QS-01B",
+     "title": "Distributor BOM - Block B - Nudura ICF kit with your rate card (Excel)",
+     "file": "downloads/Distributor BOM - Tyn Y Bonau Road, Pontarddulais - Block B.xlsx",
+     "thumb": "thumbs/ES26-090-QS-01B.png",
+     "bytes": 67556,
+     "number": "ES26-090-QS-01B",
+     "kind": "xlsx",
+     "preview": "xls/bom_B.html",
+     "tabs": 7,
+     "subtitle": "Excel workbook - live preview, enter your sale rates"
+    }
+   ],
+   "downloads": [
+    {
+     "file": "downloads/Distributor BOM - Tyn Y Bonau Road, Pontarddulais - Block B.xlsx",
+     "title": "Distributor BOM - Block B (Excel - enter your rates in the yellow cells) (0.1 MB)"
+    }
+   ]
+  }
+ ],
+ "focus": null,
+ "isolate_stages": true,
+ "toggles": [
+  {
+   "label": "Roof structure",
+   "materials": [
+    "RoofStruct_*",
+    "C24 flat-roof joist (indicative)",
+    "OSB3 deck (indicative)",
+    "Single-ply membrane (indicative)"
+   ],
+   "default": true,
+   "stages": [
+    1,
+    2
+   ]
+  },
+  {
+   "label": "Partitions",
+   "materials": [
+    "Partition - plain wall (indicative)"
+   ],
+   "default": true,
+   "stages": [
+    1,
+    2
+   ]
+  },
+  {
+   "label": "Windows + doors",
+   "materials": [
+    "Glazing (indicative)",
+    "Window frame (indicative)"
+   ],
+   "default": true,
+   "stages": [
+    1,
+    2
+   ]
+  }
+ ],
+ "download_all": {
+  "file": "downloads/ES26-090 Tyn Y Bonau Road, Pontarddulais - GS6 - FCHA, Blocks A + B - Quotation.zip",
+  "bytes": 1117386,
+  "count": 14,
+  "title": "Download everything"
+ }
+}
